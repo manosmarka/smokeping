@@ -25,22 +25,27 @@ host = 192.168.1.37
 +++ ChrisaIphone
 menu = Chrisas iPhone
 title = Chrisas iPhone
-host = 192.168.1.45
+host = chrisamob
 
 +++ NickA70
 menu = Nick A70
 title = NickA70
-host = 192.168.1.50
+host = nikosmob
 
 +++ Sofia
 menu = Sofia
 title = Sofia12Pro
-host = 192.168.1.17
+host = sofiamob
 
 +++ Router
 menu = Router
 title = Router Speedport
 host = 192.168.1.1
+
++++ Manos
+menu = Manos
+title = ManosMob
+host = manosmob
 
 
 + InternetSites
