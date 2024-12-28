@@ -1,0 +1,21 @@
+---
+services:
+  smokeping:
+    image: lscr.io/linuxserver/smokeping:latest
+    container_name: smokeping
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Etc/UTC
+    volumes:
+      - /d/smokeping/config:/config
+      - /d/smokeping/data:/data
+    ports:
+      - 80:80
+    networks:
+      - my_ipv6_network
+    restart: unless-stopped
+networks:
+  my_ipv6_network:
+    driver: bridge
+    enable_ipv6: true
